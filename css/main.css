@@ -44,3 +44,19 @@
 .ms_text {
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+/* Media query */
+
+@media screen and (min-width: 768px) {
+  .ms_px_50 {
+    padding-right: 70px;
+    padding-left: 70px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .ms_px_50 {
+    padding-right: 210px;
+    padding-left: 210px;
+  }
+}
