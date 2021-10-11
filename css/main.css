@@ -49,7 +49,7 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-/* Media query */
+/* Media query
 
 @media screen and (min-width: 768px) {
   .ms_px_60 {
@@ -63,4 +63,4 @@
     padding-right: 210px;
     padding-left: 210px;
   }
-}
+} */
