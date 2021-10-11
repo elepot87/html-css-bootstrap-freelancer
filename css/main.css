@@ -30,3 +30,8 @@
   padding: 10px 16px;
   margin: 0 auto;
 }
+
+.ms_container_small {
+  width: 70%;
+  margin: 0 auto;
+}
