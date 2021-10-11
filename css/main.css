@@ -16,14 +16,18 @@
   margin-bottom: 15px;
 }
 
+.ms_mt_15 {
+  margin-top: 15px;
+}
+
 .ms_py-20 {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-.ms_px_50 {
-  padding-right: 50px;
-  padding-left: 50px;
+.ms_px_60 {
+  padding-right: 60px;
+  padding-left: 60px;
 }
 
 .debug-box {
@@ -48,14 +52,14 @@
 /* Media query */
 
 @media screen and (min-width: 768px) {
-  .ms_px_50 {
+  .ms_px_60 {
     padding-right: 70px;
     padding-left: 70px;
   }
 }
 
 @media screen and (min-width: 992px) {
-  .ms_px_50 {
+  .ms_px_60 {
     padding-right: 210px;
     padding-left: 210px;
   }
