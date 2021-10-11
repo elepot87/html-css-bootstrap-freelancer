@@ -21,6 +21,11 @@
   padding-bottom: 20px;
 }
 
+.ms_px_50 {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
 .debug-box {
   width: 100%;
   height: 80px;
@@ -34,4 +39,8 @@
 .ms_container_small {
   width: 70%;
   margin: 0 auto;
+}
+
+.ms_text {
+  background-color: rgba(0, 0, 0, 0.5);
 }
