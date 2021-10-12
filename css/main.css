@@ -173,6 +173,11 @@
   padding-right: 60px;
 }
 
+.about .ms_btn-site {
+  border-color: #fff;
+  color: #fff;
+}
+
 /* Contatti */
 
 .ms-registration-form input[type="text"],
