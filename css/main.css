@@ -36,6 +36,28 @@
   padding-left: 60px;
 }
 
+/* Navbar */
+.main-header .ms_site-navbar {
+  background-color: #2c3e50;
+}
+
+.main-header .ms_site-brand {
+  font-weight: 500;
+}
+
+.main-header .ms_site-navbar .ms_site-nav-link {
+  color: #fff;
+  font-weight: 500;
+}
+
+.main-header .ms_site-navbar a.ms_site-nav-link:hover {
+  color: #1abc9c;
+}
+
+.main-header .ms_site-toggler {
+  border-color: #fff;
+}
+
 .debug-box {
   width: 100%;
   height: 80px;
@@ -91,19 +113,3 @@
   height: 200px;
   padding: 1rem 0;
 }
-
-/* Media query
-
-@media screen and (min-width: 768px) {
-  .ms_px_60 {
-    padding-right: 70px;
-    padding-left: 70px;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .ms_px_60 {
-    padding-right: 210px;
-    padding-left: 210px;
-  }
-} */
