@@ -134,21 +134,46 @@
   margin: 0 auto;
 } */
 
-.ms_container_small {
-  width: 70%;
-  margin: 0 auto;
+/* About */
+.about .title-section {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
 }
 
-.ms_text {
-  background-color: rgba(0, 0, 0, 0.5);
+.about .content-icon .icon {
+  color: #fff;
+  font-size: 25px;
 }
 
-.copyright {
-  height: 80px;
-  display: flex;
-  align-items: center;
-  text-align: center;
+.about .content-icon::before,
+.about .content-icon::after {
+  content: "";
+  background-color: #fff;
+  display: inline-block;
+  width: 70px;
+  height: 3px;
+  border-radius: 20px;
+  position: relative;
+  bottom: 5px;
 }
+
+.about .about-text {
+  color: #fff;
+}
+
+/* .about .about-text {
+  padding-left: 60px;
+  padding-right: 60px;
+} */
+
+.about .col-12:first-child .about-text,
+.about .col-12:last-child .about-text {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+/* Contatti */
 
 .ms-registration-form input[type="text"],
 .ms-registration-form input[type="password"],
@@ -180,6 +205,15 @@
   padding: 1rem 0;
 }
 
+/* Copyright */
+
+.copyright {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
 /* Media query */
 
 /* Tablet */
@@ -197,6 +231,16 @@
 
   .portfolio .title-section {
     font-size: 26px;
+  }
+
+  .about .col-12:first-child .about-text {
+    padding-left: 60px;
+    padding-right: 0;
+  }
+
+  .about .col-12:last-child .about-text {
+    padding-right: 60px;
+    padding-left: 0px;
   }
 }
 
