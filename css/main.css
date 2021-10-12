@@ -162,11 +162,6 @@
   color: #fff;
 }
 
-/* .about .about-text {
-  padding-left: 60px;
-  padding-right: 60px;
-} */
-
 .about .col-12:first-child .about-text,
 .about .col-12:last-child .about-text {
   padding-left: 60px;
@@ -180,8 +175,31 @@
 
 /* Contatti */
 
+.contact .title-section {
+  color: #000;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.contact .content-icon .icon {
+  color: #2c3e50;
+  font-size: 25px;
+}
+
+.contact .content-icon::before,
+.contact .content-icon::after {
+  content: "";
+  background-color: #2c3e50;
+  display: inline-block;
+  width: 70px;
+  height: 3px;
+  border-radius: 20px;
+  position: relative;
+  bottom: 5px;
+}
+
 .ms-registration-form input[type="text"],
-.ms-registration-form input[type="password"],
+.ms-registration-form input[type="tel"],
 .ms-registration-form input[type="email"],
 .ms-registration-form textarea {
   font-size: 18px;
@@ -191,7 +209,7 @@
 }
 
 .ms-registration-form input[type="text"]:focus,
-.ms-registration-form input[type="password"]:focus,
+.ms-registration-form input[type="tel"]:focus,
 .ms-registration-form input[type="email"]:focus,
 .ms-registration-form textarea:focus {
   border-color: #000;
@@ -199,7 +217,7 @@
 }
 
 .ms-registration-form input[type="text"],
-.ms-registration-form input[type="password"],
+.ms-registration-form input[type="tel"],
 .ms-registration-form input[type="email"] {
   height: 60px;
   padding: 0;
@@ -208,6 +226,15 @@
 .ms-registration-form textarea {
   height: 200px;
   padding: 1rem 0;
+}
+
+.ms-registration-form ::placeholder {
+  color: #2c3e50;
+}
+
+.contact .ms-registration-form .ms_btn-form {
+  background-color: #1abc9c;
+  border: none;
 }
 
 /* Copyright */
@@ -230,11 +257,15 @@
   .hero .content-icon::before,
   .hero .content-icon::after,
   .portfolio .content-icon::before,
-  .portfolio .content-icon::after {
+  .portfolio .content-icon::after,
+  .contact .content-icon::before,
+  .contact .content-icon::after {
     width: 80px;
   }
 
-  .portfolio .title-section {
+  .portfolio .title-section,
+  .about .title-section,
+  .contact .title-section {
     font-size: 26px;
   }
 

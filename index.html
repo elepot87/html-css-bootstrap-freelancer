@@ -160,55 +160,66 @@
         </button>
       </div>
     </section>
+
     <!-- Contact -->
-    <section class="contact">
+    <section class="contact py-5">
       <div class="container">
-        <h2 class="ms_text_align_center mb-4">Form</h2>
+        <h2 class="ms_mb_15 text-uppercase title-section ms_text_align_center">
+          Contact me
+        </h2>
+        <div class="content-icon ms_mb_15 ms_text_align_center">
+          <i class="fas fa-star icon"></i>
+        </div>
         <div class="row justify-content-center mb-4">
-          <div class="col-12 col-md-8">
-            <form action="" class="ms-registration-form">
+          <div class="col-10">
+            <!-- Form -->
+            <form action="" class="ms-registration-form px-3">
               <div class="mb-4">
-                <label for="username" class="form-label">Username</label>
+                <!-- <label for="name" class="form-label"></label> -->
                 <input
                   type="text"
                   class="form-control"
-                  id="username"
-                  placeholder="Username"
+                  id="name"
+                  placeholder="Name"
                 />
               </div>
               <div class="mb-4">
-                <label for="password" class="form-label">Password</label>
-                <input
-                  type="password"
-                  class="form-control"
-                  id="password"
-                  placeholder="Password"
-                />
-              </div>
-              <div class="mb-4">
-                <label for="email" class="form-label">Email</label>
+                <!-- <label for="email" class="form-label">Email</label> -->
                 <input
                   type="email"
                   class="form-control"
                   id="email"
-                  placeholder="Email"
+                  placeholder="Email Address"
                 />
               </div>
               <div class="mb-4">
-                <label for="exampleFormControlTextarea1" class="form-label"
+                <!-- <label for="phone" class="form-label">Phone</label> -->
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="phone"
+                  placeholder="Phone"
+                />
+              </div>
+
+              <div class="mb-4">
+                <!-- <label for="exampleFormControlTextarea1" class="form-label"
                   >Messaggio</label
-                >
+                > -->
                 <textarea
                   class="form-control"
                   id="exampleFormControlTextarea1"
                   rows="3"
+                  placeholder="Messagge"
                 >
-                Messaggio
+                Messagge
               </textarea
                 >
               </div>
 
-              <button class="btn btn-success mb-4">Submit</button>
+              <button class="btn btn-success btn-lg ms_btn-form mb-4">
+                Send
+              </button>
             </form>
           </div>
         </div>
